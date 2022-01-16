@@ -2,12 +2,12 @@ const endPoint = 5;
 let qidx = 0;
 
 function goNextQ(){
-   if (document.getElementById("answer").value==""){
-     alert('원활한 테스트를 위해서 대답을 입력해주세요 :)')
-   }else{
-     goNext(++qidx);
-   }
-  //goNext(++qidx);
+//   if (document.getElementById("answer").value==""){
+//     alert('원활한 테스트를 위해서 대답을 입력해주세요 :)')
+//   }else{
+//     goNext(++qidx);
+//   }
+  goNext(++qidx);
 }
 
 function goNext(qidx){
