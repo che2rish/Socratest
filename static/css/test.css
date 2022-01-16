@@ -1,0 +1,62 @@
+#qna_text{
+    background-color: white;
+    width : 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.qBox{
+    background-color: whitesmoke;
+    /* 글자 중앙 정렬 */
+    text-align: center; 
+    border-radius: 20px;
+    font-size: 28px;
+    width:80%;
+}
+
+.status{
+    height: 20px;
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.statusBar{
+    height:100%;
+    /* colorzilla로 그라데이션 효과도 가능 */
+    background-color: red;
+    border-radius: 20px;
+    width: 16.7%;
+}
+
+.container #qna_text .btn{
+    /* background-color: rgb(210, 233, 248); */
+    float: right;
+    margin-top: -20px;
+}
+
+.container #qna_text .btn:active,
+.container #qna_text .btn:focus{
+    border: none; 
+    box-shadow: none; 
+}
+
+.container #qna_text .btn .material-icons{
+    font-size: 50px;
+    /* margin-top:-20px; */
+    color: white;
+    border-radius: 50%;
+    background-color: lightskyblue ;
+}
+
+.container #qna_text .btn .material-icons:hover{
+    font-size: 50px;
+    /* margin-top:-20px; */
+    color: lightskyblue;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+
+  
+
