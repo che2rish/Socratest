@@ -26,31 +26,33 @@
   <title>너 자신을 알라 소크라테스트</title>
 </head>
 <body>
-  <div class="container">
-    <section id = "result" class="mx-auto my-5 py-5 px-3">
-      <h1 class = "pt-5" style="font-size: 50px;" >오늘의 나는?!</h1>
-      <div class="resultname mt-4">
-        <p>"분노"</p>
-      </div>  
+  <form action="/result" method="GET">
+    <div class="container">
+      <section id = "result" class="mx-auto my-5 py-5 px-3">
+        <h1 class = "pt-5" style="font-size: 50px;" >오늘의 나는?!</h1>
+        <div class="resultname mt-4">
+          <p>"분노"</p>
+        </div>
 
-      <div id = "resultImg" class = "my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-        <img src="../static/img/A1.png" alt="" class="img-fluid">
-      </div>
+        <div id = "resultImg" class = "my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+          <img src="../static/img/A1.png" alt="" class="img-fluid">
+        </div>
 
-      <div class="resultDesc mt-5">
-        <p>버럭이가 찾아왔나요? 당신은 현재
-          <span style = "color:red"> "분노" </span> 상태네요. 
-          <br> 지금 당신의 분노 상태 또한 하나의 밑거름이 될 수 있습니다.
-          <br>마음을 차분하게 가라앉힐 필요가 있어 보이네요.<p>
-      </div>    
+        <div class="resultDesc mt-5">
+          <p>버럭이가 찾아왔나요? 당신은 현재
+            <span style = "color:red"> "분노" </span> 상태네요.
+            <br> 지금 당신의 분노 상태 또한 하나의 밑거름이 될 수 있습니다.
+            <br>마음을 차분하게 가라앉힐 필요가 있어 보이네요.<p>
+        </div>
 
-      <div class = "famous_saying mt-5">
-        <h2 class = "my-3">✍️오늘의 당신을 위해</h2>
-        <p> 화를 내면 주위의 사람들은 많은 상처를 입는다. <br>
-          그러나 그것보다 더 큰 상처를 입는 사람은 바로 화를 내는 당사자이다...</p>      
-      </div>
-    </section>
-  </div>
+        <div class = "famous_saying mt-5">
+          <h2 class = "my-3">✍️오늘의 당신을 위해</h2>
+          <p> 화를 내면 주위의 사람들은 많은 상처를 입는다. <br>
+            그러나 그것보다 더 큰 상처를 입는 사람은 바로 화를 내는 당사자이다...</p>
+        </div>
+      </section>
+    </div>
+  </form>
 </body>
 
 <!-- javascript -->
