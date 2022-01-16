@@ -2,12 +2,12 @@ const endPoint = 5;
 let qidx = 0;
 
 function goNextQ(){
-//   if (document.getElementById("answer").value==""){
-//     alert('원활한 테스트를 위해서 대답을 입력해주세요 :)')
-//   }else{
-//     goNext(++qidx);
-//   }
-  goNext(++qidx);
+   if (document.getElementById("answer").value==""){
+     alert('원활한 테스트를 위해서 대답을 입력해주세요 :)')
+   }else{
+     goNext(++qidx);
+   }
+ // goNext(++qidx);
 }
 
 function goNext(qidx){
@@ -60,7 +60,7 @@ for(i=1; i<=5; i++){
 
         $.ajax({
             type: 'POST'
-            ,url : 'http://192.168.1.113:5000/ajax' //데이터를 주고받을 파일 주소 입력,''
+            ,url : '' //데이터를 주고받을 파일 주소 입력,''
             ,data: JSON.stringify(obj)
             ,dataType: 'JSON'
             ,contentType: "application/json"
