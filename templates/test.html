@@ -30,29 +30,31 @@
   <title>너 자신을 알라 소크라테스트</title>
 </head>
 <body>
-<div class="container">
-  <section id = "qna_text" class = "mx-auto my-5 pb-5 px-3">
-    <h1 class = "pt-5"style="font-size: 50px;">너 자신을 알라 소크라테스트</h1>
-    <div class="status mx-auto mt-5">
-      <div class="statusBar"></div>
+  <form action="/test" onsubmit="return false;" method="POST">
+    <div class="container">
+      <section id = "qna_text" class = "mx-auto my-5 pb-5 px-3">
+        <h1 class = "pt-5"style="font-size: 50px;">너 자신을 알라 소크라테스트</h1>
+        <div class="status mx-auto mt-5">
+          <div class="statusBar"></div>
+        </div>
+        <div class="qBox my-5 mx-auto">
+          1. 나른한 주말 오후, 당신은 잠에서 깼습니다.<br>지금 당신의 기분은?
+        </div>
+        <div class = "col-lg-6 col-md-8 col-sm-10 col-12 mx-auto" id = "Q_Img">
+          <img src = "../static/img/Q1.png" alt = "1" class = "img-fluid" >
+        </div>
+        <div class="answer">
+          <input type="text" id = 'answer' name="answer" class="col-lg-6 col-md-8 col-sm-10 col-12 my-3 mx-auto" style="font-size: 26px;">
+        </div>
+        <button type="button" class="btn" onclick = "js:goNextQ()">
+          <span class="material-icons">
+            <!-- arrow_forward -->
+            forward
+          </span>
+        </button>
+      </section>
     </div>
-    <div class="qBox my-5 mx-auto">
-      1. 나른한 주말 오후, 당신은 잠에서 깼습니다.<br>지금 당신의 기분은?
-    </div>  
-    <div class = "col-lg-6 col-md-8 col-sm-10 col-12 mx-auto" id = "Q_Img">
-      <img src = "../static/img/Q1.png" alt = "1" class = "img-fluid" >
-    </div>
-    <div class="answer">
-      <input type="text" id = 'answer' name="answer" class="col-lg-6 col-md-8 col-sm-10 col-12 my-3 mx-auto" style="font-size: 26px;">
-    </div>
-    <button type="button" class="btn" onclick = "js:goNextQ()">
-      <span class="material-icons">
-        <!-- arrow_forward -->
-        forward
-      </span>
-    </button>
-  </section>
-</div>    
+  </form>
 </body>
 
   <!-- javascript -->
@@ -61,7 +63,7 @@
 
   <script type="text/javascript">
   function move_result(){
-    window.location.href = "./result.html";
+    window.location.href = "./result";
   }
   </script>
   
