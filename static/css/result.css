@@ -1,0 +1,20 @@
+#result{
+    /* background-color: whitesmoke; */
+    background-color: white;
+    width : 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.resultname{
+    font-size: 40px ;
+}
+
+.resultDesc{
+    font-size: 25px ;
+}
+
+.famous_saying{
+    font-size: 25px ;
+    border: 10px solid #96c9e4;
+}
